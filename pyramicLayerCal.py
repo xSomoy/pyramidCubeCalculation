@@ -5,7 +5,7 @@ total = int(input("How many cubes you have?\n"))
 layer = 0
 while layer <= total:
     total  = total-layer
-    if layer = total:
+    if layer == total:
         print("There are total " + str(layer) + " layers") 
         break
     else:
