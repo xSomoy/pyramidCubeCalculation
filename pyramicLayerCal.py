@@ -8,6 +8,6 @@ while layer <= total:
     layer=layer+1
 
 if layer == total:
-    print("There are total " + str(layer-1) + " layers") 
+    print("There are total " + str(layer-1) + " layers and " + str(total) + " cubes remains.") 
 else:
-    total = total - layer 
+    print("There are total " + str(layer-1) + " layers and " + str(total) + " cubes remains.") 
