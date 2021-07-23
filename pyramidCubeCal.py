@@ -1,5 +1,4 @@
-base = input()
-base = int(base)
+base = int(input())
 total = 0
 layer=0
 while layer != base:
