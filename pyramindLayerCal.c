@@ -12,6 +12,14 @@ main()
         total = total - layer;
         layer = layer + 1;
     }
-    printf("There are total %d layers", layer);
+    if ( total == layer){
+        layer = layer-1;
+        printf("There are total %d layers and %d cubes remains", layer,total);
+    }
+    else{
+        layer = layer-1;
+        printf("There are total %d layers and %d cubes remains", layer,total);
+    }
+
     getch();
 }
