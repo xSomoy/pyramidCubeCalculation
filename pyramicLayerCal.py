@@ -9,4 +9,4 @@ while layer <= total:
         layer = layer
     else:
         layer=layer+1
-print("There are total " + str(layer) + " layers") 
+print("There are total " + str(layer-1) + " layers") 
