@@ -6,7 +6,7 @@ layer=1
 #     total = base + (base-layer)
 #     layer=layer+1
 
-for layer < base
+for layer < base:
     total = base + (base-layer)
     layer=layer+1
 print(total) 
