@@ -1,10 +1,9 @@
 # Pyramid Cube Calculation Based On The Number of Cube in a Base Layer
 # By John Deadman 14:40 23/07/2021 +0600 GMT
 
-base = int(input("How many cubes you have?\n"))
-total = 0
+total = int(input("How many cubes you have?\n"))
 layer = 0
-while layer != base:
+while layer <= total:
     total  = total + (base-layer)
     layer=layer+1
-print("There are total " + str(total) + " cubes") 
+print("There are total " + str(layer) + " cubes") 
