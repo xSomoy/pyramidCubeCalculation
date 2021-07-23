@@ -4,6 +4,6 @@
 total = int(input("How many cubes you have?\n"))
 layer = 0
 while layer <= total:
-    total  = total + (base-layer)
+    total  = total-layer
     layer=layer+1
 print("There are total " + str(layer) + " cubes") 
