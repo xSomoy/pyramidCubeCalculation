@@ -6,4 +6,4 @@ layer = 0
 while layer <= total:
     total  = total-layer
     layer=layer+1
-print("There are total " + str(layer) + " cubes") 
+print("There are total " + str(layer) + " layers") 
