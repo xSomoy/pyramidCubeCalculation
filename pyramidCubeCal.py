@@ -1,3 +1,6 @@
+# Total Cube Calculation Based On The Number of Cube in a Base Layer
+# By John Deadman 14:36 23/07/2021 +0600 GMT
+
 base = int(input("How many cubes in base? "))
 total = 0
 layer = 0
