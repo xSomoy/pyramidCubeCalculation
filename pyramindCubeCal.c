@@ -6,7 +6,7 @@ main()
     while (layer != base)
     {
         total = base + (base - layer);
-        layer = layer - 1;
+        layer = layer + 1;
     }
     printf("%d", total);
     getch();
