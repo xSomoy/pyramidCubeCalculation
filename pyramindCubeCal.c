@@ -1,10 +1,7 @@
 #include <stdio.h>
-void main
-{
-    int base;
-    int layer;
-    int total;
+main(){
+    int base,layer,total;
     scanf("%d", &base);
-    print("%d", base);
+    printf("%d", base);
     getch();
 }
