@@ -4,14 +4,14 @@
 #include <stdio.h>
 main()
 {
-    int base, layer = 0, total = 0;
-    printf("How many cubes in base?\n");
-    scanf("%d", &base);
-    while (layer != base)
+    int layer = 0, total;
+    printf("How many cubes you have?\n");
+    scanf("%d", &total);
+    while (layer <= total)
     {
-        total = total + (base - layer);
+        total = total - layer;
         layer = layer + 1;
     }
-    printf("There are total %d cubes", total);
+    printf("There are total %d layers", total);
     getch();
 }
