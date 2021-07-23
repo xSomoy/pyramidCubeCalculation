@@ -12,6 +12,6 @@ main()
         total = total - layer;
         layer = layer + 1;
     }
-    printf("There are total %d layers", total);
+    printf("There are total %d layers", layer);
     getch();
 }
