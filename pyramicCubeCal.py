@@ -1,7 +1,8 @@
 base = input()
 base = int(base)
+total = 0
 n=1
 while n < base:
-    base = base + (base-n)
+    total = base + (base-n)
     n=n-1
-print(base) 
+print(total) 
