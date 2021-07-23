@@ -1,8 +1,8 @@
 base = input()
 base = int(base)
-total = base
-layer=1
-while layer > base:
+total = 0
+layer=0
+while layer != base:
     total  = total + (base-layer)
     layer=layer+1
 
